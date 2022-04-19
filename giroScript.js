@@ -17,7 +17,6 @@ startQuiz.addEventListener('click' ,()=>{
 
 btnCorrect.addEventListener('click',()=>{ 
 
-    console.log(window.location.href);
     
     if (sessionStorage.clickcount) {
         sessionStorage.clickcount = Number(sessionStorage.clickcount) + 1;
@@ -77,31 +76,31 @@ btnIncorrect1.addEventListener('click',()=>{
            }, 2000);
         };
     
-        if (window.location.href == "/Q2.html") {
+        if (window.location.pathname == "/Q2.html") {
 
             setTimeout(function(){
                 window.location.href = "Q3.html";
              }, 2000);
         };
     
-        if (window.location.href == "/Q3.html") {
+        if (window.location.pathname == "/Q3.html") {
 
             setTimeout(function(){
-                window.location.href = '/Q4.html';
+                window.location.href = "/Q4.html";
              }, 2000);
         }; 
     
-        if (window.location.href == "/Q4.html") {
+        if (window.location.pathname == "/Q4.html") {
     
             setTimeout(function(){
-                window.location.href = 'Q5.html';
+                window.location.href = "Q5.html";
              }, 2000);
         };    
 
-        if (window.location.href == "/Q5.html") {
+        if (window.location.pathname == "/Q5.html") {
             
             setTimeout(function(){
-                window.location.href = 'results.html';
+                window.location.href = "results.html";
             }, 2000);
                     
         };
@@ -110,37 +109,37 @@ btnIncorrect1.addEventListener('click',()=>{
 
 btnIncorrect2.addEventListener('click',()=>{
     
-    if (window.location.href == "/Q1.html") {
+    if (window.location.pathname == "/Q1.html") {
         setTimeout(function(){
-            window.location.href = 'Q2.html';
+            window.location.href = "Q2.html";
           }, 2000);
        };
    
-       if (window.location.href == "/Q2.html") {
+       if (window.location.pathname == "/Q2.html") {
 
            setTimeout(function(){
-               window.location.href = 'Q3.html';
+               window.location.href = "Q3.html";
             }, 2000);
        };
    
-       if (window.location.href == "/Q3.html") {
+       if (window.location.pathname == "/Q3.html") {
 
            setTimeout(function(){
-               window.location.href = 'Q4.html';
+               window.location.href = "Q4.html";
             }, 2000);
        }; 
    
-       if (window.location.href == "/Q4.html") {
+       if (window.location.pathname == "/Q4.html") {
    
            setTimeout(function(){
-               window.location.href = 'Q5.html';
+               window.location.href = "Q5.html";
             }, 2000);
        };    
 
-       if (window.location.href == "/Q5.html") {
+       if (window.location.pathname == "/Q5.html") {
            
            setTimeout(function(){
-               window.location.href = 'results.html';
+               window.location.href = "results.html";
            }, 2000);
                    
        };
@@ -149,37 +148,37 @@ btnIncorrect2.addEventListener('click',()=>{
 
 btnIncorrect3.addEventListener('click',()=>{
 
-    if (window.location.href == "/Q1.html") {
+    if (window.location.pathname == "/Q1.html") {
         setTimeout(function(){
-            window.location.href = 'Q2.html';
+            window.location.href = "Q2.html";
           }, 2000);
        };
    
-       if (window.location.href == "/Q2.html") {
+       if (window.location.pathname == "/Q2.html") {
 
            setTimeout(function(){
-               window.location.href = 'Q3.html';
+               window.location.href = "Q3.html";
             }, 2000);
        };
    
-       if (window.location.href == "/Q3.html") {
+       if (window.location.pathname == "/Q3.html") {
 
            setTimeout(function(){
-               window.location.href = 'Q4.html';
+               window.location.href = "Q4.html";
             }, 2000);
        }; 
    
-       if (window.location.href == "/Q4.html") {
+       if (window.location.pathname == "/Q4.html") {
    
            setTimeout(function(){
-               window.location.href = 'Q5.html';
+               window.location.href = "Q5.html";
             }, 2000);
        };    
 
-       if (window.location.href == "/Q5.html") {
+       if (window.location.pathname == "/Q5.html") {
            
            setTimeout(function(){
-               window.location.href = 'results.html';
+               window.location.href = "results.html";
            }, 2000);
                    
        };
