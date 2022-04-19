@@ -27,7 +27,7 @@ btnCorrect.addEventListener('click',()=>{
         sessionStorage.clickcount = 1;
     }
     
-    if (window.location.pathname == "/Q1") {
+    if (window.location.pathname == "/Q1.html") {
 
         setTimeout(function(){
             window.location.href = "Q2.html";
@@ -45,21 +45,21 @@ btnCorrect.addEventListener('click',()=>{
     if (window.location.pathname == "/Q3.html") {
 
         setTimeout(function(){
-            window.location.href = 'Q4.html';
+            window.location.href = "Q4.html";
          }, 2500);
     }; 
 
     if (window.location.pathname == "/Q4.html") {
 
         setTimeout(function(){
-            window.location.href = 'Q5.html';
+            window.location.href = "Q5.html";
          }, 2500);
     };
 
     if (window.location.pathname == "Q5.html") {
             
         setTimeout(function(){
-            window.location.href = 'results.html';
+            window.location.href = "results.html";
          }, 2500);
                     
     };
