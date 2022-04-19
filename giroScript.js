@@ -18,7 +18,9 @@ startQuiz.addEventListener('click' ,()=>{
 btnCorrect.addEventListener('click',()=>{ 
     
     console.log(window.location.pathname);
-
+    console.log(window.location.href);
+    console.log(window.location.hostname);
+    
     if (sessionStorage.clickcount) {
         sessionStorage.clickcount = Number(sessionStorage.clickcount) + 1;
     }
@@ -27,7 +29,7 @@ btnCorrect.addEventListener('click',()=>{
         sessionStorage.clickcount = 1;
     }
     
-    if (window.location.pathname == "/Q1.html") {
+    if (window.location.pathname == "/C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/JoshuaRGH.github.io/Q1.html") {
 
         setTimeout(function(){
             window.location.href = "Q2.html";
