@@ -32,7 +32,7 @@ btnCorrect.addEventListener('click',()=>{
          }, 2500);
     }; 
 
-    if (window.location.pathname == "/Q3.html") {
+    if (window.location.pathname == "/Q2.html") {
 
         setTimeout(function(){
             window.location.href = "Q3.html";
@@ -40,21 +40,21 @@ btnCorrect.addEventListener('click',()=>{
     };
 
     
-    if (window.location.pathname == "Q4.html") {
+    if (window.location.pathname == "/Q3.html") {
 
         setTimeout(function(){
             window.location.href = 'Q4.html';
          }, 2500);
     }; 
 
-    if (window.location.pathname == "Q5.html") {
+    if (window.location.pathname == "/Q4.html") {
 
         setTimeout(function(){
             window.location.href = 'Q5.html';
          }, 2500);
     };
 
-    if (window.location.pathname == "Q6.html") {
+    if (window.location.pathname == "Q5.html") {
             
         setTimeout(function(){
             window.location.href = 'results.html';
