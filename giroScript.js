@@ -16,6 +16,8 @@ startQuiz.addEventListener('click' ,()=>{
 
 
 btnCorrect.addEventListener('click',()=>{ 
+
+    console.log(window.location.href);
     
     if (sessionStorage.clickcount) {
         sessionStorage.clickcount = Number(sessionStorage.clickcount) + 1;
@@ -25,7 +27,7 @@ btnCorrect.addEventListener('click',()=>{
         sessionStorage.clickcount = 1;
     }
     
-    if (window.location.pathname == "/Q1.html") {
+    if (window.location.pathname == "/Q1") {
 
         setTimeout(function(){
             window.location.href = "Q2.html";
@@ -68,7 +70,7 @@ btnCorrect.addEventListener('click',()=>{
 
 btnIncorrect1.addEventListener('click',()=>{
 
-    if (window.location.href == "Q1.html") {
+    if (window.location.pathname == "/Q1.html") {
          setTimeout(function(){
              window.location.href = "Q2.html";
            }, 2000);
