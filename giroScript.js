@@ -9,7 +9,7 @@ let tryAgain = document.querySelector("#tryAgain");
 startQuiz.addEventListener('click' ,()=>{
     
     setTimeout(function(){
-        window.location.href = 'https://joshuargh.github.io/Q1';
+        window.location.href = 'Q1.html';
     }, 2000);
 });
 
@@ -28,7 +28,7 @@ btnCorrect.addEventListener('click',()=>{
         sessionStorage.clickcount = 1;
     }
     
-    if (window.location.href == "https://joshuargh.github.io/Q1") {
+    if (window.location.href == "Q1") {
 
         setTimeout(function(){
             window.location.href = 'https://joshuargh.github.io/Q2';
