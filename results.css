@@ -1,10 +1,10 @@
 body {
-  background-image: url("marble.jpg");
+  background-image: url("resources/images/marble.jpg");
   background-size: cover;
 }
 
 #giroGif1 {
-  background-image: url("girologo.gif");
+  background-image: url("resources/gifs/girologo.gif");
   height: 160px;
   width: 230px;
   margin-top: 5%;
@@ -18,7 +18,7 @@ body {
   font-size: 20px;
   font-family: 'Nokora', sans-serif;
   cursor: pointer;
-  background-image: url("pinkgif.webp");
+  background-image: url("resources/gifs/pinkgif.webp");
   background-size: cover;
   color: rgb(193, 124, 124); 
   border: transparent;
@@ -39,7 +39,7 @@ body {
   font-size: 17px;
   font-family: 'Nokora', sans-serif;
   cursor: pointer;
-  background-image: url("grad-gif.gif");
+  background-image: url("resources/gifs/grad-gif.gif");
   border-radius: 12px;
   opacity: 90%;
   color: rgb(73, 73, 73); 

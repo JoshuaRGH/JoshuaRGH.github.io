@@ -17,9 +17,6 @@ startQuiz.addEventListener('click' ,()=>{
 
 btnCorrect.addEventListener('click',()=>{  
 
-    btnCorrect.addEventListener('click', (event) => {   
-    });
-
     if (sessionStorage.clickcount) {
         sessionStorage.clickcount = Number(sessionStorage.clickcount) + 1;
     }
@@ -28,39 +25,39 @@ btnCorrect.addEventListener('click',()=>{
         sessionStorage.clickcount = 1;
     }
     
-    if (window.location.href == "Q1") {
+    if (window.location.pathname == "/Q1.html") {
 
         setTimeout(function(){
-            window.location.href = 'https://joshuargh.github.io/Q2';
+            window.location.href = "Q2.html";
          }, 2500);
     }; 
 
-    if (window.location.href == "https://joshuargh.github.io/Q2") {
+    if (window.location.href == "Q2.html") {
 
         setTimeout(function(){
-            window.location.href = 'https://joshuargh.github.io/Q3';
+            window.location.href = "Q3.html";
          }, 2500);
     };
 
     
-    if (window.location.href == "https://joshuargh.github.io/Q3") {
+    if (window.location.href == "Q3.html") {
 
         setTimeout(function(){
-            window.location.href = 'https://joshuargh.github.io/Q4';
+            window.location.href = 'Q4.html';
          }, 2500);
     }; 
 
-    if (window.location.href == "https://joshuargh.github.io/Q4") {
+    if (window.location.href == "Q4.html") {
 
         setTimeout(function(){
-            window.location.href = 'https://joshuargh.github.io/Q5';
+            window.location.href = 'Q5.html';
          }, 2500);
     };
 
-    if (window.location.href == "https://joshuargh.github.io/Q5") {
+    if (window.location.href == "Q5.html") {
             
         setTimeout(function(){
-            window.location.href = 'https://joshuargh.github.io/results';
+            window.location.href = 'results.html';
          }, 2500);
                     
     };
@@ -71,37 +68,37 @@ btnCorrect.addEventListener('click',()=>{
 
 btnIncorrect1.addEventListener('click',()=>{
 
-    if (window.location.href == "joshuargh.github.io/Q1.html") {
+    if (window.location.href == "Q1.html") {
          setTimeout(function(){
-             window.location.href = 'joshuargh.github.io/Q2.html';
+             window.location.href = "Q2.html";
            }, 2000);
         };
     
-        if (window.location.href == "joshuargh.github.io/Q2.html") {
+        if (window.location.href == "Q2.html") {
 
             setTimeout(function(){
-                window.location.href = 'joshuargh.github.io/Q3.html';
+                window.location.href = "Q3.html";
              }, 2000);
         };
     
-        if (window.location.href == "joshuargh.github.io/Q3.html") {
+        if (window.location.href == "Q3.html") {
 
             setTimeout(function(){
-                window.location.href = 'joshuargh.github.io/Q4.html';
+                window.location.href = 'Q4.html';
              }, 2000);
         }; 
     
-        if (window.location.href == "joshuargh.github.io/Q4.html") {
+        if (window.location.href == "Q4.html") {
     
             setTimeout(function(){
-                window.location.href = 'joshuargh.github.io/Q5.html';
+                window.location.href = 'Q5.html';
              }, 2000);
         };    
 
-        if (window.location.href == "joshuargh.github.io/Q5.html") {
+        if (window.location.href == "Q5.html") {
             
             setTimeout(function(){
-                window.location.href = 'joshuargh.github.io/results.html';
+                window.location.href = 'results.html';
             }, 2000);
                     
         };
@@ -110,37 +107,37 @@ btnIncorrect1.addEventListener('click',()=>{
 
 btnIncorrect2.addEventListener('click',()=>{
     
-    if (window.location.href == "joshuargh.github.io/Q1.html") {
+    if (window.location.href == "Q1.html") {
         setTimeout(function(){
-            window.location.href = 'joshuargh.github.io/Q2.html';
+            window.location.href = 'Q2.html';
           }, 2000);
        };
    
-       if (window.location.href == "joshuargh.github.io/Q2.html") {
+       if (window.location.href == "Q2.html") {
 
            setTimeout(function(){
-               window.location.href = 'joshuargh.github.io/Q3.html';
+               window.location.href = 'Q3.html';
             }, 2000);
        };
    
-       if (window.location.href == "joshuargh.github.io/Q3.html") {
+       if (window.location.href == "Q3.html") {
 
            setTimeout(function(){
-               window.location.href = 'joshuargh.github.io/Q4.html';
+               window.location.href = 'Q4.html';
             }, 2000);
        }; 
    
-       if (window.location.href == "joshuargh.github.io/Q4.html") {
+       if (window.location.href == "Q4.html") {
    
            setTimeout(function(){
-               window.location.href = 'joshuargh.github.io/Q5.html';
+               window.location.href = 'Q5.html';
             }, 2000);
        };    
 
-       if (window.location.href == "joshuargh.github.io/Q5.html") {
+       if (window.location.href == "Q5.html") {
            
            setTimeout(function(){
-               window.location.href = 'joshuargh.github.io/results.html';
+               window.location.href = 'results.html';
            }, 2000);
                    
        };
@@ -149,37 +146,37 @@ btnIncorrect2.addEventListener('click',()=>{
 
 btnIncorrect3.addEventListener('click',()=>{
 
-    if (window.location.href == "joshuargh.github.io/Q1.html") {
+    if (window.location.href == "Q1.html") {
         setTimeout(function(){
-            window.location.href = 'joshuargh.github.io/Q2.html';
+            window.location.href = 'Q2.html';
           }, 2000);
        };
    
-       if (window.location.href == "joshuargh.github.io/Q2.html") {
+       if (window.location.href == "Q2.html") {
 
            setTimeout(function(){
-               window.location.href = 'joshuargh.github.io/Q3.html';
+               window.location.href = 'Q3.html';
             }, 2000);
        };
    
-       if (window.location.href == "joshuargh.github.io/Q3.html") {
+       if (window.location.href == "Q3.html") {
 
            setTimeout(function(){
-               window.location.href = 'joshuargh.github.io/Q4.html';
+               window.location.href = 'Q4.html';
             }, 2000);
        }; 
    
-       if (window.location.href == "joshuargh.github.io/Q4.html") {
+       if (window.location.href == "Q4.html") {
    
            setTimeout(function(){
-               window.location.href = 'joshuargh.github.io/Q5.html';
+               window.location.href = 'Q5.html';
             }, 2000);
        };    
 
-       if (window.location.href == "joshuargh.github.io/Q5.html") {
+       if (window.location.href == "Q5.html") {
            
            setTimeout(function(){
-               window.location.href = 'joshuargh.github.io/results.html';
+               window.location.href = 'results.html';
            }, 2000);
                    
        };
@@ -196,7 +193,7 @@ tryAgain.addEventListener('click', ()=>{
     sessionStorage.clear()
 
     setTimeout(function(){
-        window.location.href = 'joshuargh.github.io/index.html';
+        window.location.href = 'index.html';
      }, 2000);
 
 });
