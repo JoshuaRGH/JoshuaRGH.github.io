@@ -7,10 +7,10 @@ let resultsReveal = document.querySelector("#results");
 let tryAgain = document.querySelector("#tryAgain");
 
 startQuiz.addEventListener('click' ,()=>{
-
+    
     setTimeout(function(){
-        window.location.href = 'file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/Q1.html';
-     }, 2000);
+        window.location.href = 'joshuargh.github.io/Q1.html';
+    }, 2000);
 });
 
 
@@ -28,39 +28,39 @@ btnCorrect.addEventListener('click',()=>{
         sessionStorage.clickcount = 1;
     }
     
-    if (window.location.href == "file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/Q1.html") {
+    if (window.location.href == "joshuargh.github.io/Q1.html") {
 
         setTimeout(function(){
-            window.location.href = 'file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/Q2.html';
+            window.location.href = 'joshuargh.github.io/Q2.html';
          }, 2500);
     }; 
 
-    if (window.location.href == "file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/Q2.html") {
+    if (window.location.href == "joshuargh.github.io/Q2.html") {
 
         setTimeout(function(){
-            window.location.href = 'file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/Q3.html';
+            window.location.href = 'joshuargh.github.io/Q3.html';
          }, 2500);
     };
 
     
-    if (window.location.href == "file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/Q3.html") {
+    if (window.location.href == "joshuargh.github.io/Q3.html") {
 
         setTimeout(function(){
-            window.location.href = 'file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/Q4.html';
+            window.location.href = 'joshuargh.github.io/Q4.html';
          }, 2500);
     }; 
 
-    if (window.location.href == "file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/Q4.html") {
+    if (window.location.href == "joshuargh.github.io/Q4.html") {
 
         setTimeout(function(){
-            window.location.href = 'file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/Q5.html';
+            window.location.href = 'joshuargh.github.io/Q5.html';
          }, 2500);
     };
 
-    if (window.location.href == "file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/Q5.html") {
+    if (window.location.href == "joshuargh.github.io/Q5.html") {
             
         setTimeout(function(){
-            window.location.href = 'file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/results.html';
+            window.location.href = 'joshuargh.github.io/results.html';
          }, 2500);
                     
     };
@@ -71,121 +71,120 @@ btnCorrect.addEventListener('click',()=>{
 
 btnIncorrect1.addEventListener('click',()=>{
 
-    if (window.location.href == "file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/Q1.html") {
+    if (window.location.href == "joshuargh.github.io/Q1.html") {
          setTimeout(function(){
-             window.location.href = 'file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/Q2.html';
+             window.location.href = 'joshuargh.github.io/Q2.html';
            }, 2000);
         };
     
-        if (window.location.href == "file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/Q2.html") {
+        if (window.location.href == "joshuargh.github.io/Q2.html") {
 
             setTimeout(function(){
-                window.location.href = 'file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/Q3.html';
+                window.location.href = 'joshuargh.github.io/Q3.html';
              }, 2000);
         };
     
-        if (window.location.href == "file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/Q3.html") {
+        if (window.location.href == "joshuargh.github.io/Q3.html") {
 
             setTimeout(function(){
-                window.location.href = 'file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/Q4.html';
+                window.location.href = 'joshuargh.github.io/Q4.html';
              }, 2000);
         }; 
     
-        if (window.location.href == "file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/Q4.html") {
+        if (window.location.href == "joshuargh.github.io/Q4.html") {
     
             setTimeout(function(){
-                window.location.href = 'file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/Q5.html';
+                window.location.href = 'joshuargh.github.io/Q5.html';
              }, 2000);
         };    
 
-        if (window.location.href == "file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/Q5.html") {
+        if (window.location.href == "joshuargh.github.io/Q5.html") {
             
-                    setTimeout(function(){
-                        window.location.href = 'file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/results.html';
-                     }, 2000);
+            setTimeout(function(){
+                window.location.href = 'joshuargh.github.io/results.html';
+            }, 2000);
                     
-                };
+        };
 
     });
 
 btnIncorrect2.addEventListener('click',()=>{
+    
+    if (window.location.href == "joshuargh.github.io/Q1.html") {
+        setTimeout(function(){
+            window.location.href = 'joshuargh.github.io/Q2.html';
+          }, 2000);
+       };
+   
+       if (window.location.href == "joshuargh.github.io/Q2.html") {
 
-        if (window.location.href == "file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/Q1.html") {
-             setTimeout(function(){
-                 window.location.href = 'file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/Q2.html';
-               }, 2000);
-            };
-        
-            if (window.location.href == "file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/Q2.html") {
-    
-                setTimeout(function(){
-                    window.location.href = 'file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/Q3.html';
-                 }, 2000);
-            };
-        
-            if (window.location.href == "file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/Q3.html") {
-    
-                setTimeout(function(){
-                    window.location.href = 'file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/Q4.html';
-                 }, 2000);
-            }; 
-        
-            if (window.location.href == "file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/Q4.html") {
-        
-                setTimeout(function(){
-                    window.location.href = 'file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/Q5.html';
-                 }, 2000);
-            };   
-            
-            if (window.location.href == "file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/Q5.html") {
-            
-                    setTimeout(function(){
-                        window.location.href = 'file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/results.html';
-                     }, 2000);
-                    
-                };
-            
-    
-        });
+           setTimeout(function(){
+               window.location.href = 'joshuargh.github.io/Q3.html';
+            }, 2000);
+       };
+   
+       if (window.location.href == "joshuargh.github.io/Q3.html") {
+
+           setTimeout(function(){
+               window.location.href = 'joshuargh.github.io/Q4.html';
+            }, 2000);
+       }; 
+   
+       if (window.location.href == "joshuargh.github.io/Q4.html") {
+   
+           setTimeout(function(){
+               window.location.href = 'joshuargh.github.io/Q5.html';
+            }, 2000);
+       };    
+
+       if (window.location.href == "joshuargh.github.io/Q5.html") {
+           
+           setTimeout(function(){
+               window.location.href = 'joshuargh.github.io/results.html';
+           }, 2000);
+                   
+       };
+
+    });
 
 btnIncorrect3.addEventListener('click',()=>{
 
-            if (window.location.href == "file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/Q1.html") {
-                 setTimeout(function(){
-                     window.location.href = 'file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/Q2.html';
-                   }, 2000);
-                };
-            
-                if (window.location.href == "file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/Q2.html") {
-        
-                    setTimeout(function(){
-                        window.location.href = 'file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/Q3.html';
-                     }, 2000);
-                };
-            
-                if (window.location.href == "file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/Q3.html") {
-        
-                    setTimeout(function(){
-                        window.location.href = 'file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/Q4.html';
-                     }, 2000);
-                }; 
-            
-                if (window.location.href == "file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/Q4.html") {
-            
-                    setTimeout(function(){
-                        window.location.href = 'file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/Q5.html';
-                     }, 2000);
-                };   
-                
-                if (window.location.href == "file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/Q5.html") {
-            
-                    setTimeout(function(){
-                        window.location.href = 'file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/results.html';
-                     }, 2000);
-                    
-                };
-        
-            });
+    if (window.location.href == "joshuargh.github.io/Q1.html") {
+        setTimeout(function(){
+            window.location.href = 'joshuargh.github.io/Q2.html';
+          }, 2000);
+       };
+   
+       if (window.location.href == "joshuargh.github.io/Q2.html") {
+
+           setTimeout(function(){
+               window.location.href = 'joshuargh.github.io/Q3.html';
+            }, 2000);
+       };
+   
+       if (window.location.href == "joshuargh.github.io/Q3.html") {
+
+           setTimeout(function(){
+               window.location.href = 'joshuargh.github.io/Q4.html';
+            }, 2000);
+       }; 
+   
+       if (window.location.href == "joshuargh.github.io/Q4.html") {
+   
+           setTimeout(function(){
+               window.location.href = 'joshuargh.github.io/Q5.html';
+            }, 2000);
+       };    
+
+       if (window.location.href == "joshuargh.github.io/Q5.html") {
+           
+           setTimeout(function(){
+               window.location.href = 'joshuargh.github.io/results.html';
+           }, 2000);
+                   
+       };
+
+    });
 
 
 
@@ -197,7 +196,7 @@ tryAgain.addEventListener('click', ()=>{
     sessionStorage.clear()
 
     setTimeout(function(){
-        window.location.href = 'file:///C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/Giro%20Quiz/index.html';
+        window.location.href = 'joshuargh.github.io/index.html';
      }, 2000);
 
 });
