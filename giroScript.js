@@ -17,10 +17,6 @@ startQuiz.addEventListener('click' ,()=>{
 
 btnCorrect.addEventListener('click',()=>{ 
     
-    console.log(window.location.pathname);
-    console.log(window.location.href);
-    console.log(window.location.hostname);
-    
     if (sessionStorage.clickcount) {
         sessionStorage.clickcount = Number(sessionStorage.clickcount) + 1;
     }
@@ -29,14 +25,14 @@ btnCorrect.addEventListener('click',()=>{
         sessionStorage.clickcount = 1;
     }
     
-    if (window.location.pathname == "/C:/Users/Josh/Desktop/Napier%20Yr2/WebTech/JoshuaRGH.github.io/Q1.html") {
+    if (window.location.pathname == "/Q1.html") {
 
         setTimeout(function(){
             window.location.href = "Q2.html";
          }, 2500);
     }; 
 
-    if (window.location.href == "Q2.html") {
+    if (window.location.pathname == "/Q3.html") {
 
         setTimeout(function(){
             window.location.href = "Q3.html";
@@ -44,21 +40,21 @@ btnCorrect.addEventListener('click',()=>{
     };
 
     
-    if (window.location.href == "Q3.html") {
+    if (window.location.pathname == "Q4.html") {
 
         setTimeout(function(){
             window.location.href = 'Q4.html';
          }, 2500);
     }; 
 
-    if (window.location.href == "Q4.html") {
+    if (window.location.pathname == "Q5.html") {
 
         setTimeout(function(){
             window.location.href = 'Q5.html';
          }, 2500);
     };
 
-    if (window.location.href == "Q5.html") {
+    if (window.location.pathname == "Q6.html") {
             
         setTimeout(function(){
             window.location.href = 'results.html';
