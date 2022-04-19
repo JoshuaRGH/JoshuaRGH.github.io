@@ -56,7 +56,7 @@ btnCorrect.addEventListener('click',()=>{
          }, 2500);
     };
 
-    if (window.location.pathname == "Q5.html") {
+    if (window.location.pathname == "/Q5.html") {
             
         setTimeout(function(){
             window.location.href = "results.html";
