@@ -130,14 +130,14 @@ btnIncorrect2.addEventListener('click',()=>{
             }, 2000);
        }; 
    
-       if (window.location.href == "Q4.html") {
+       if (window.location.href == "/Q4.html") {
    
            setTimeout(function(){
                window.location.href = 'Q5.html';
             }, 2000);
        };    
 
-       if (window.location.href == "Q5.html") {
+       if (window.location.href == "/Q5.html") {
            
            setTimeout(function(){
                window.location.href = 'results.html';
@@ -149,34 +149,34 @@ btnIncorrect2.addEventListener('click',()=>{
 
 btnIncorrect3.addEventListener('click',()=>{
 
-    if (window.location.href == "Q1.html") {
+    if (window.location.href == "/Q1.html") {
         setTimeout(function(){
             window.location.href = 'Q2.html';
           }, 2000);
        };
    
-       if (window.location.href == "Q2.html") {
+       if (window.location.href == "/Q2.html") {
 
            setTimeout(function(){
                window.location.href = 'Q3.html';
             }, 2000);
        };
    
-       if (window.location.href == "Q3.html") {
+       if (window.location.href == "/Q3.html") {
 
            setTimeout(function(){
                window.location.href = 'Q4.html';
             }, 2000);
        }; 
    
-       if (window.location.href == "Q4.html") {
+       if (window.location.href == "/Q4.html") {
    
            setTimeout(function(){
                window.location.href = 'Q5.html';
             }, 2000);
        };    
 
-       if (window.location.href == "Q5.html") {
+       if (window.location.href == "/Q5.html") {
            
            setTimeout(function(){
                window.location.href = 'results.html';
