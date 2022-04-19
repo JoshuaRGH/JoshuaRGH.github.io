@@ -69,7 +69,7 @@ btnCorrect.addEventListener('click',()=>{
 
 btnIncorrect1.addEventListener('click',()=>{
 
-    console.log(window.location.pathname);
+    
 
     if (window.location.pathname == "/Q1.html") {
 
@@ -111,7 +111,7 @@ btnIncorrect1.addEventListener('click',()=>{
 
 btnIncorrect2.addEventListener('click',()=>{
 
-    console.log(window.location.pathname);
+    
     
     if (window.location.pathname == "/Q1.html") {
         setTimeout(function(){
@@ -152,7 +152,7 @@ btnIncorrect2.addEventListener('click',()=>{
 
 btnIncorrect3.addEventListener('click',()=>{
 
-    console.log(window.location.pathname);
+    
 
     if (window.location.pathname == "/Q1.html") {
         setTimeout(function(){
