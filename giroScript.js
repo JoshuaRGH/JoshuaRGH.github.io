@@ -9,7 +9,7 @@ let tryAgain = document.querySelector("#tryAgain");
 startQuiz.addEventListener('click' ,()=>{
     
     setTimeout(function(){
-        window.location.href = 'joshuargh.github.io/Q1.html';
+        window.location.href = 'https://joshuargh.github.io/Q1';
     }, 2000);
 });
 
@@ -28,39 +28,39 @@ btnCorrect.addEventListener('click',()=>{
         sessionStorage.clickcount = 1;
     }
     
-    if (window.location.href == "joshuargh.github.io/Q1.html") {
+    if (window.location.href == "https://joshuargh.github.io/Q1") {
 
         setTimeout(function(){
-            window.location.href = 'joshuargh.github.io/Q2.html';
+            window.location.href = 'https://joshuargh.github.io/Q2';
          }, 2500);
     }; 
 
-    if (window.location.href == "joshuargh.github.io/Q2.html") {
+    if (window.location.href == "https://joshuargh.github.io/Q2") {
 
         setTimeout(function(){
-            window.location.href = 'joshuargh.github.io/Q3.html';
+            window.location.href = 'https://joshuargh.github.io/Q3';
          }, 2500);
     };
 
     
-    if (window.location.href == "joshuargh.github.io/Q3.html") {
+    if (window.location.href == "https://joshuargh.github.io/Q3") {
 
         setTimeout(function(){
-            window.location.href = 'joshuargh.github.io/Q4.html';
+            window.location.href = 'https://joshuargh.github.io/Q4';
          }, 2500);
     }; 
 
-    if (window.location.href == "joshuargh.github.io/Q4.html") {
+    if (window.location.href == "https://joshuargh.github.io/Q4") {
 
         setTimeout(function(){
-            window.location.href = 'joshuargh.github.io/Q5.html';
+            window.location.href = 'https://joshuargh.github.io/Q5';
          }, 2500);
     };
 
-    if (window.location.href == "joshuargh.github.io/Q5.html") {
+    if (window.location.href == "https://joshuargh.github.io/Q5") {
             
         setTimeout(function(){
-            window.location.href = 'joshuargh.github.io/results.html';
+            window.location.href = 'https://joshuargh.github.io/results';
          }, 2500);
                     
     };
