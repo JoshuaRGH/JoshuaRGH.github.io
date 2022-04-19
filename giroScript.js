@@ -15,7 +15,9 @@ startQuiz.addEventListener('click' ,()=>{
 
 
 
-btnCorrect.addEventListener('click',()=>{  
+btnCorrect.addEventListener('click',()=>{ 
+    
+    console.log(window.location.pathname);
 
     if (sessionStorage.clickcount) {
         sessionStorage.clickcount = Number(sessionStorage.clickcount) + 1;
