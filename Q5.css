@@ -1,0 +1,183 @@
+body{
+  margin: 0;
+}
+
+.container {
+    display: grid; 
+    grid-template-columns: 0.6fr 1.8fr 0.6fr; 
+    grid-template-rows: 0.4fr 2.4fr 0.7fr 0.5fr; 
+    background-image: url("resources/gradients/gradient-q5.svg");
+    opacity: 100%;
+    background-size: cover;
+    border-color: transparent;
+    
+  }
+  
+  .Header { grid-area: 1 / 2 / 2 / 3;
+    font-family: 'Comfortaa', cursive;
+            font-size: 35px;
+            color: #99a5c5;
+            transition-duration: 0.5s;
+        }
+  
+          
+  .Header:hover {
+    color: #c9cbff;
+  }
+
+  .Main-image { grid-area: 2 / 2 / 3 / 3; 
+                background-image: url("resources/images/agnello.jpg");
+                width: 700px;
+                height: 750px;
+                background-size: cover;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                transition: 2s ease-in-out;
+                cursor: url("resources/icons/mountainicon.png"), auto;
+              }
+
+  .Main-image:focus {grid-area: 2 / 2 / 3 / 3; 
+                background-image: url("resources/images/nibali.jpg");
+                width: 700px;
+                height: 750px;
+                background-size: cover;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+              }
+
+  .Txt-2 { grid-area: 2 / 1 / 3 / 4;
+          padding: 20px;
+          margin-top: 180px;
+          font-family: 'Nokora', sans-serif;
+
+          
+         }
+  .Txt1 { grid-area: 2 / 3 / 3 / 4;
+          padding: 10px;
+          margin-top: 150px;
+          width: 210px;
+          font-family: 'Belgrano', serif;
+          background: -webkit-linear-gradient(rgb(190, 243, 238), rgb(255, 255, 255));
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          font-size: 17px;
+
+        }
+  
+  .Txt1:hover  {
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(159, 238, 252));
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+  }
+
+  .Quiz {
+     grid-area: 3 / 2 / 4 / 3;
+     display: grid;
+     justify-content:baseline;
+     justify-items: center;
+    }
+
+    #stage-date{
+      font-size: large;
+      font-style: bold, italic;
+      color:rgb(255, 255, 255)
+    }
+
+    #stage-num{
+      font-size: large;
+      font-weight: bold;
+
+    }
+
+    #stage-route{
+      font-size: 17px;
+      font-weight: bold;
+      color: #c9cbff;
+    }
+
+    #question1{
+      font-size: medium;
+      text-align: center;
+      font-family: 'Comfortaa', cursive;
+    }
+
+    #question2{
+      font-size: medium;
+      font-style: italic;
+      text-align: center;
+      font-family: 'Comfortaa', cursive;
+
+    }
+
+   .btn {
+    margin-top: 20px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'Comfortaa', cursive;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-image: url("resources/gifs/pinkgif.webp");
+    height: 60px;
+    width: 160px;
+    border: none;
+   }
+  
+  .btn-wrong:hover {
+    color: #F4F9FF;
+    border: transparent;
+   }
+
+   .btn-wrong:focus {
+    background-image: url("resources/gifs/wrong-gif.gif");
+    color: rgb(131, 124, 124);
+  }
+
+   .btn-correct:hover {
+    background-color: #ffffff;
+    color: #F4F9FF;
+    border: transparent;
+   }
+
+   .btn-correct:focus {
+    background-image: url("resources/gifs/champagne.gif");
+    background-size: 100%;
+    background-position: right center;
+    color: transparent;
+    border: transparent;
+   }
+
+   #snowGif {
+    background-image: url("resources/icons/snowy.svg");
+    margin-left: 90px;
+    width: 50px;
+    height: 60px;
+  }
+
+  #kruijsGif {
+    background-image: url("resources/gifs/kruisj-gif.gif");
+    background-size: cover;
+    background-position: center;
+    width: 230px;
+    height: 190px;
+    margin-top: 100px;
+    margin-left: 0px;
+    opacity: 85%;
+    transition: 2s ease-in-out;
+    cursor: crosshair;
+  }
+
+  #kruijsGif:hover {
+    opacity: 0%;
+  }
+
+  #result {
+    margin-top: 30px;
+  }
+
+
+
